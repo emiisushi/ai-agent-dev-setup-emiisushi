@@ -1,0 +1,29 @@
+{
+  "mcpServers": [
+    {
+      "name": "Rolldice",
+      "url": "https://example-rolldice-mcp.local",
+      "status": "connected",
+      "lastChecked": "2026-03-17T12:00:00Z"
+    },
+    {
+      "name": "Bootcamp AI Agent",
+      "url": "https://example-bootcamp-agent.local",
+      "status": "connected",
+      "lastChecked": "2026-03-17T12:00:00Z"
+    },
+    {
+      "name": "Calendar Booking",
+      "url": "https://example-calendar-booking.local",
+      "status": "connected",
+      "lastChecked": "2026-03-17T12:00:00Z"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://api.github.com",
+      "status": "connected",
+      "lastChecked": "2026-03-17T12:00:00Z"
+    }
+  ],
+  "notes": "Replace placeholder URLs and timestamps with real values after verifying in Claude Desktop."
+}

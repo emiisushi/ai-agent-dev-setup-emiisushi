@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Agent Dev Setup - [Your Name]
 
-## Getting Started
+## Workshop Cohort
+- Name: [Your Name]
+- Cohort: [Bootcamp / AI Agent Developer Cohort]
 
-First, run the development server:
+## Development Environment Checklist
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Node.js installed
+   - Command: `node --version`
+   - Screenshot: `screenshots/node-version.png`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Git installed
+   - Command: `git --version`
+   - Screenshot: `screenshots/git-version.png`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. VS Code Insider with GitHub Copilot enabled
+   - Screenshot: `screenshots/vscode-insider-copilot.png`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Claude Desktop with all 4 MCP servers connected
+   - Screenshot: `screenshots/claude-mcp-connected.png`
 
-## Learn More
+## MCP Servers Purpose and Functionality
 
-To learn more about Next.js, take a look at the following resources:
+- **Rolldice**: randomization and interactive game-based inputs for agent workflows.
+- **Bootcamp AI Agent**: training agent for the bootcamp, provides AI coaching in development tasks.
+- **Calendar Booking**: scheduling service to support booking events by agent conversations.
+- **GitHub**: source control and workspace automation via MCP interface.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Troubleshooting Notes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Issue: MCP endpoint connection failures. Fix: verify local host names, adjust firewall/ports, and ensure Claude Desktop has correct certificate trust.
+- Issue: GitHub token unauthorized. Fix: regenerate PAT with `repo`, `workflow`, and `read:user` scopes.
+- Issue: Copilot disabled in VS Code Insider. Fix: update extension and sign in to correct account.
 
-## Deploy on Vercel
+## Repository Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `/mcp-configs/`
+  - `claude-desktop-config.json`
+  - `mcp-servers-list.md`
+  - `connection-test.md`
+- `reflection.md`
+- `VERIFICATION.md`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## How to Verify
+
+1. Add all screenshots to `/screenshots/`.
+2. Confirm MCP server connectivity via `mcp-configs/connection-test.md` with real endpoint checks.
+3. Commit to git with at least 5 meaningful commits.
+4. Use process in `VERIFICATION.md` to prove operations.
+
