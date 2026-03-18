@@ -23,7 +23,7 @@ export default function Home() {
       <section className="mx-auto flex w-full max-w-6xl flex-col items-center gap-6 px-6 py-16 text-center">
         <div className="relative h-32 w-32 overflow-hidden rounded-full border border-zinc-300 dark:border-zinc-700">
           <Image
-            src="c:\Users\ACER\Downloads\profile.jpg"
+            src="/8e3a6b6d-5be1-4294-a63b-03c6452da9a4.jpg"
             alt="Profile"
             fill
             className="object-cover"

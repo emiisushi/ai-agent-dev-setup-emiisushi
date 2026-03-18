@@ -1,10 +1,9 @@
 # Verification
 
 ## Screenshots
-- Rolldice MCP server connected in Claude Desktop: `screenshots/rolldice-connected.png`
-- Bootcamp AI Agent connected in Claude Desktop: `screenshots/bootcamp-agent-connected.png`
-- Calendar Booking connected in Claude Desktop: `screenshots/calendar-booking-connected.png`
-- GitHub connected in Claude Desktop: `screenshots/github-connected.png`
+- Node.js and Git versions: `screenshots/node-git-versions.png`
+- VS Code Insiders with GitHub Copilot: `screenshots/vscode-copilot.png`
+- Claude Desktop with MCP servers connected: `screenshots/claude-mcp-servers.png`
 
 ## GitHub MCP Server Interaction Example
 - Action: created a new file in this repo using GitHub MCP API.

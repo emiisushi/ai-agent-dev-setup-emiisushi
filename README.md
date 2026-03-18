@@ -1,8 +1,9 @@
 # AI Agent Dev Setup - [Your Name]
 
 ## Workshop Cohort
-- Name: [Your Name]
-- Cohort: [Bootcamp / AI Agent Developer Cohort]
+- Name: Rexie Margarette A. Vargas
+- Cohort: AI Agent Developer Bootcamp 2026
+- Repository: ai-agent-dev-setup-emiisushi
 
 ## Development Environment Checklist
 

@@ -1,29 +1,30 @@
 {
-  "mcpServers": [
-    {
-      "name": "Rolldice",
-      "url": "https://example-rolldice-mcp.local",
-      "status": "connected",
-      "lastChecked": "2026-03-17T12:00:00Z"
+  "mcpServers": {
+    "rolldice": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://rolldice-mcpserver.vercel.app/api/mcp"
+      ]
     },
-    {
-      "name": "Bootcamp AI Agent",
-      "url": "https://example-bootcamp-agent.local",
-      "status": "connected",
-      "lastChecked": "2026-03-17T12:00:00Z"
+    "calendar-booking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://booking-cal.ausbizconsulting.com.au/api/mcp"
+      ]
     },
-    {
-      "name": "Calendar Booking",
-      "url": "https://example-calendar-booking.local",
-      "status": "connected",
-      "lastChecked": "2026-03-17T12:00:00Z"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://api.github.com",
-      "status": "connected",
-      "lastChecked": "2026-03-17T12:00:00Z"
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_TOKEN_HERE"
+      }
     }
-  ],
-  "notes": "Replace placeholder URLs and timestamps with real values after verifying in Claude Desktop."
+  }
 }
