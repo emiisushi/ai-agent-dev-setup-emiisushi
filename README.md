@@ -1,4 +1,4 @@
-# AI Agent Dev Setup - [Your Name]
+# AI Agent Dev Setup 
 
 ## Workshop Cohort
 - Name: Rexie Margarette A. Vargas
